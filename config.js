@@ -128,11 +128,7 @@ config.database = {
   // 4. Collection names starting with 'system.' will be encoded as 'xsystem.'. For instance, system.myData will be
   //    encoded as xsystem.myData.
   // Default value: "true" (although we will set it to false until the Cygnus counterpart is ready and landed)
-  nameEncoding: 'false',
-  // Server attempt to reconnect #times
-  reconnectTries: 30,
-  // Server will wait # milliseconds between retries.
-  reconnectInterval: 1000
+  nameEncoding: 'false'
 };
 
 // Logging configuration
